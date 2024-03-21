@@ -5,6 +5,8 @@ Whether you are a newbie who does not know how to create resumes, or you simply 
 
 The LaTex resume template used is one of the highly sought after FAANG resumes!
 
+Natural Language Processing is used to optimize descriptive contents to be clear, concise, and goal-oriented. The descriptions are modified to incorporate proven keywords to strategically attract both the ATS algorithms and the recruiters' attention.
+
 
 # Installation
 
