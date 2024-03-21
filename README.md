@@ -1,4 +1,4 @@
-# *QuickCV*
+# **QuickCV**
 This website simplifies the process of creating [ATS](#ats) friendly resumes. User will input their data and the website will handle the creation. The generated resume is optimized for ATS compatibility without the hassle of tedious formatting.
 
 Whether you are a newbie who does not know how to create resumes, or you simply want to bypass the hassle of formatting; this website is your answer!
@@ -10,12 +10,12 @@ Natural Language Processing is used to optimize descriptive contents to be clear
 
 # Installation
 
-bash
+```bash
 git clone https://github.com/nishantak/resume_builder.git
 cd resume_builder
 pip install flask
 python main.py
-
+```
 
 Since this is a prototype, it is not, as of now, web-hosted. Access the website at your localhost at http://localhost:5000
 
