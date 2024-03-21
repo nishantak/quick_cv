@@ -1,0 +1,102 @@
+<html>
+
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+  <title>Resume Builder</title>
+
+  <link rel="stylesheet"  href="{{ url_for('static', filename='styles/bootstrap.css') }}"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/home.css') }}"/>
+</head>
+
+<body>
+  
+  <div class="main">
+
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="">
+          <span style="font-size: 50px;">
+            QuickCV
+          </span>
+        </a>
+      </nav>
+    </div>
+    </header>
+
+    <section class="slider_section ">
+      
+      <div class="col-md-5 offset-md-1">
+        <div class="detail-box">
+          
+          <h2>
+            Don't know how to build your first resume? <br><br>
+            <h2-2>Don't want to bother with the hassle of formatting?<br><br></h2.2>
+          </h2>
+          <h1>
+            Get your easy ATS Friendly Resume<br>
+            RIGHT NOW!
+          </h1>
+
+          <div class="btn-box">
+            <a href="{{ url_for('views.ats') }}" class="btn-1">
+              Get Started
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="offset-md-1 col-md-4 img-container">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='img/slider-img.png') }}">
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <section class = "nlp">
+
+  </section>
+
+<section class="experience_section layout_padding">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-5">
+        <div class="img-box">
+
+          <img src="{{ url_for('static', filename='img/experience-img.jpg') }}">
+        </div>
+      </div>
+      
+      <div class="col-md-7">
+        <div class="detail-box">
+          <div class="heading_container">
+            <h2 style="color: black;">
+              Your resume becomes your identity in the job world
+            </h2>
+          </div>
+          <p>
+            ATS (Applicant Tracking System) is software used by employers at almost all conglomerates, even more so at FAANG, to manage applicant screening, resume parsing, and candidate communication. The system helps streamline the hiring process by automatically filtering and organizing incoming resumes based on specific criteria set by the employer.
+            <ul>
+              <li>An ATS friendly resume is usually only a page long</li>
+              <li>An ATS friendly resume sticks to a clean, easy-to-read layout with standard fonts and consistent formatting</li>
+              <li>Tailor your resume by including relevant keywords from the job description to match the ATS filtering criteria</li>
+              <li>ATS avoids graphics and images</li>
+              <li>Clearly label sections such as "Work Experience," "Education," and "Skills" to help ATS categorize your information accurately</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</body>
+
+</html>
