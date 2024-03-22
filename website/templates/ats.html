@@ -17,24 +17,24 @@
 
         <!-- NLP context-->
         <fieldset id="nlp_context">
-            <legend>Resume Objective (for NLP context)</legend>
+            <legend>Resume Objective (for NLP context) *</legend>
             <textarea id="context_description" name="context_description" rows="4" cols="40" required></textarea><br>
         </fieldset>
 
         <!-- Personal Details -->
         <fieldset>
             <legend>Personal Details</legend>
-            <label for="full_name">Full Name:</label>
+            <label for="full_name">Full Name: *</label>
             <input type="text" id="full_name" name="full_name" required><br>
             
-            <label for="email">Email:</label>
+            <label for="email">Email: *</label>
             <input type="email" id="email" name="email" required><br>
             
-            <label for="mobile_number">Mobile Number:</label>
+            <label for="mobile_number">Mobile Number: *</label>
             <input type="tel" id="mobile_number" name="mobile_number" required><br>
             
-            <label for="gender">Gender:</label>
-            <select id="gender" name="gender">
+            <label for="gender">Gender: *</label>
+            <select id="gender" name="gender" required>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
                 <option value="other">Other</option>
@@ -49,19 +49,19 @@
             <legend>Educational Details</legend>
 
             <fieldset>
-            <label for="degree">Qualification 1:</label>
+            <label for="degree">Qualification 1: *</label>
             <input type="text" id="degree1" name="degree1" required><br>
             
-            <label for="institution_name">Institution Name:</label>
+            <label for="institution_name">Institution Name: *</label>
             <input type="text" id="institution_name1" name="institution_name1" required><br>
             
-            <label for="from_till">From - Till:</label>
+            <label for="from_till">From - Till: *</label>
             <input type="text" id="from_till1" name="from_till1" required><br>
             
-            <label for="gpa">GPA:</label>
+            <label for="gpa">GPA: *</label>
             <input type="text" id="gpa1" name="gpa1" required><br>
             
-            <label for="coursework">Coursework:</label>
+            <label for="coursework">Coursework: *</label>
             <input type="text" id="coursework1" name="coursework1" required><br>
             </fieldset>
         </fieldset>
@@ -71,17 +71,17 @@
         <fieldset>
             <legend>Skills (Comma {, } separated)</legend>
             <!-- Technical Skills -->
-            <label for="technical_skills">Technical Skills:</label>
+            <label for="technical_skills">Technical Skills: *</label>
             <input type="text" id="technical_skills" name="technical_skills" required><br>
             
-            <label for="technical_proficiency">Proficiency (On an ascending scale of 10):</label>
+            <label for="technical_proficiency">Proficiency (On an ascending scale of 10): *</label>
             <input style="margin-bottom: 5%;" type="text" id="technical_proficiency" name="technical_proficiency" required><br>
             
             <!-- Soft Skills -->
-            <label for="soft_skills">Soft Skills:</label>
+            <label for="soft_skills">Soft Skills: *</label>
             <input type="text" id="soft_skills" name="soft_skills" required><br>
             
-            <label for="soft_proficiency">Proficiency (On an ascending scale of 10):</label>
+            <label for="soft_proficiency">Proficiency (On an ascending scale of 10): *</label>
             <input type="text" id="soft_proficiency" name="soft_proficiency" required><br>   
         </fieldset>
 
@@ -90,16 +90,16 @@
             <legend>Work Experience</legend>
             <fieldset>
             <label for="role_name1">Role Title 1:</label>
-            <input type="text" id="role_name1" name="role_name1" required><br>
+            <input type="text" id="role_name1" name="role_name1"><br>
             
             <label for="company_name_location1">Company Name, Location:</label>
-            <input type="text" id="company_name_location1" name="company_name_location1" required><br>
+            <input type="text" id="company_name_location1" name="company_name_location1"><br>
             
             <label for="work_from_till1">Work From - Till:</label>
-            <input type="text" id="work_from_till1" name="work_from_till1" required><br>
+            <input type="text" id="work_from_till1" name="work_from_till1"><br>
             
             <label for="achievements1">Achievements:</label>
-            <textarea id="achievements1" name="achievements1" rows="4" cols="50" required></textarea><br>
+            <textarea id="achievements1" name="achievements1" rows="4" cols="50" ></textarea><br>
             </fieldset>
         </fieldset>
         <button class="add-button" type="button" onclick="addWorkExperience()">Add Work Experience</button>
@@ -109,13 +109,13 @@
             <legend>Projects</legend>
             <fieldset>
             <label for="project_title1">Project Title 1:</label>
-            <input type="text" id="project_title1" name="project_title1" required><br>
+            <input type="text" id="project_title1" name="project_title1"><br>
             
             <label for="tech_stack">Tech Stack:</label>
-            <input type="text" id="tech_stack1" name="tech_stack1" required><br>
+            <input type="text" id="tech_stack1" name="tech_stack1"><br>
             
             <label for="project_description">Project Description:</label>
-            <textarea id="project_description1" name="project_description1" rows="4" cols="50" required></textarea><br>
+            <textarea id="project_description1" name="project_description1" rows="4" cols="50"></textarea><br>
             </fieldset>
         </fieldset>
         <button class="add-button" type="button" onclick="addProject()">Add Project</button>
@@ -126,7 +126,7 @@
             
             <fieldset>
             <label for="leadership_description1">Description 1:</label>
-            <textarea id="leadership_description1" name="leadership_description1" rows="4" cols="50" required></textarea><br>
+            <textarea id="leadership_description1" name="leadership_description1" rows="4" cols="50"></textarea><br>
             </fieldset>
         </fieldset>
         <button class="add-button" type="button" onclick="addLeadershipExperience()">Add Leadership Experience</button>
