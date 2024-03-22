@@ -14,6 +14,13 @@
 <body>
     <h2 style="font-size: xx-large;">User Details</h2>
     <form action="{{ url_for('views.gen_res') }}" method="POST">
+
+        <!-- NLP context-->
+        <fieldset id="nlp_context">
+            <legend>Resume Objective (for NLP context)</legend>
+            <textarea id="context_description" name="context_description" rows="4" cols="40" required></textarea><br>
+        </fieldset>
+
         <!-- Personal Details -->
         <fieldset>
             <legend>Personal Details</legend>
