@@ -28,7 +28,7 @@ def modify_des(context, description, type):
         A research conducted concluded 26 techniques for prompt engineering to boost response efficacy by at least 60%. 
         Those techniques have all been hereby implemented in our prompt engineering.
     """
-    prompt = f"I am applying for a job of {context}. The audience is a recrutier expert in the field of {context}. Your task is to modify my given description to create a clear, brief and goal-oriented text paragraph for the specified purpose which is phrased clearly using ATS-friendly and recruiter-friendly language. Use natural human-like language. Do not use AI-sounding words, like but not limited to 'beacon', 'leveraging', 'robust' etc. Include {context} related jargon and clad it with industry-specific keywords that recruiters and ATS look for, such as but not limited to {keywords} wherever applicable. I am going to tip $9999 for a better solution. Don't use any formatting."
+    prompt = f"I am applying for a job of {context}. The audience is a recrutier expert in the field of {context}. Your task is to modify my given description to create a clear, brief and goal-oriented text paragraph for the specified purpose which is phrased clearly using ATS-friendly and recruiter-friendly language. Use natural human-like language. Do not use AI-sounding words. Do not use these words- 'beacon', 'leveraging', 'robust'. Include {context} related jargon and clad it with industry-specific keywords that recruiters and ATS look for, such as but not limited to {keywords} wherever applicable. I am going to tip $9999 for a better solution. Don't use any formatting."
 
     # Leadership Experience modification
     if type == "lex":
@@ -46,7 +46,7 @@ def modify_des(context, description, type):
         to give an exaple to the LLM. This data is widely available online.
     """
 
-    prompt = prompt + description + "\nAlso spell-check it and fix any grammatical errors."
+    prompt = prompt + description + "\nAlso spell-check it and fix any grammatical errors. I will charge a penalty if my instructions are not followed"
     return model.generate_content(prompt).text
 
 if __name__ == '__main__':
