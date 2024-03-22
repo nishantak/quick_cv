@@ -1,39 +1,49 @@
 Basic Information:
-Full Name: fasfas
-Email: fasfsaf@faf.com
-Mobile Number: fsafsaf
+Full Name: a
+Email: a@gmail.com
+Mobile Number: 231312
 Gender: male
-Website: asfsaffassaf
+Website: 213afs.com
 
 Educational Details:
 Qualification 1: None
-Degree: fsasaf
-Institution Name: fsafsaf
-From - Till: fasf
-GPA: faasfa
-Coursework: sfasf
+Degree: abc
+Institution Name: bcd
+From - Till: 12-12-23 - 12-1-24
+GPA: 9
+Coursework: Discrete Math, Data Structres
+
+Qualification 2: None
+Degree: cde
+Institution Name: efg
+From - Till: 1-12-23 - 13-4-24
+GPA: 8
+Coursework: Software Engineering, Cryptography
 
 
 Skills:
 Technical Skills:
-afsf: afsfsfsaasf
+Codig: 10
+CC: 9
+DSA: 8
 
 Soft Skills:
-afsfsa: fsafsafsaafs
+team management: 9
+ leadership:  8
 
 Work Experience:
-Role Name 1: sfaf
-Company Name - Location: fasf
-Work From - Till: fasfs
-Achievements: safasf
+Role Name 1: A
+Company Name - Location: B, C
+Work From - Till: 12 - 13
+Achievements: As an SDE developer, I consistently surpassed expectations by delivering high-quality code that met rigorous standards. For six consecutive months, my code was recognized as exemplary, showcasing my proficiency in algorithm design, architecture planning, and framework implementation. My deep understanding of development principles and analytical abilities enabled me to contribute significantly to software migration and optimization projects. I am eager to leverage my technical expertise in a challenging role where I can drive innovation and contribute to the success of your organization.
 
 
 Projects:
-Project Title 1: fassaf
-Tech Stack: afsafs
-Project Description: fasafsfsaafs
+Project Title 1: F
+Tech Stack: Python, SQL
+Project Description: As an SDE developer with expertise in data architecture and migration, I designed and implemented a high-throughput database architecture that enabled real-time data synchronization across multiple databases. This innovative solution streamlined data propagation by eliminating delays, ensuring data consistency, and enhancing analytical capabilities. Through this project, I honed my skills in algorithm optimization, framework selection, and performance tuning, delivering a scalable and efficient solution that met the demanding requirements of the organization.
 
 
 Leadership Experience:
-Leadership Description 1: fassf
+Leadership Description 1: As team leader in a national-level hackathon, I spearheaded a collaborative and innovative team of developers to design and execute a cutting-edge solution. My leadership skills enabled effective communication, problem-solving, and resource allocation, culminating in a successful project delivery that showcased my ability to drive technical teams towards excellence.
 
