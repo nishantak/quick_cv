@@ -48,7 +48,6 @@ def modify_des(context, description, type):
 
     prompt = prompt + description + "\nAlso spell-check it and fix any grammatical errors. I will charge a penalty if my instructions are not followed"
     return model.generate_content(prompt).text
- 
 
 if __name__ == '__main__':
     print(modify_des("say hi"))
