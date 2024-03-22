@@ -17,6 +17,9 @@ from .nlp import modify_des
 
 @views.route('/generate_resume', methods=['POST'])
 def gen_res():
+	#NLP Context
+	con = request.form.get('context_description')
+
     # Get basic information
 	basic_info = {
 		'Full Name': request.form.get('full_name'),
@@ -68,7 +71,7 @@ def gen_res():
 				f'Role Name {i}': role_name,
 				'Company Name - Location': company_name_location,
 				'Work From - Till': work_from_till,
-				'Achievements': achievements
+				'Achievements': modify_des(con, achievements, 'wex')
 			})
 
 	# Projects
@@ -82,7 +85,7 @@ def gen_res():
 			projects.append({
 				f'Project Title {i}': project_title,
 				'Tech Stack': tech_stack,
-				'Project Description': project_description
+				'Project Description': modify_des(con, project_description, 'proj')
 			})
 
 	# Leadership Experience
@@ -92,7 +95,7 @@ def gen_res():
 
 		if leadership_description:
 			leadership_experience.append({
-				f'Leadership Description {i}': leadership_description
+				f'Leadership Description {i}': modify_des(con, leadership_description, 'lex')
 			})
 
 	try:
@@ -140,7 +143,7 @@ def gen_res():
 					file.write(f"{key}: {value}\n")
 				file.write('\n')
 
-		return modify_des('hello')	
+		return send_file("1.txt")	
 	
 	except Exception as e:
    		return f"Error occurred: {str(e)}"
