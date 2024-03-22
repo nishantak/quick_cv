@@ -69,7 +69,6 @@ function addField(fieldset, labelText, inputName) {
     label.textContent = `${labelText}:`;
     input.type = 'text';
     input.name = inputName + fieldset.id.split('Section')[1];
-    input.required = true;
 
     fieldset.appendChild(label);
     fieldset.appendChild(input);
@@ -83,7 +82,6 @@ function addTextarea(fieldset, labelText, textareaName) {
     textarea.name = textareaName + fieldset.id.split('Section')[1];
     textarea.rows = '4';
     textarea.cols = '50';
-    textarea.required = true;
 
     fieldset.appendChild(label);
     fieldset.appendChild(textarea);
