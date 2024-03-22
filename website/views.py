@@ -12,13 +12,14 @@ def ats():
 	return render_template('ats.html')
 
 
-
+#NLP stff
 from .nlp import modify_des
 
 @views.route('/generate_resume', methods=['POST'])
 def gen_res():
 	#NLP Context
 	con = request.form.get('context_description')
+	print(con)
 
     # Get basic information
 	basic_info = {

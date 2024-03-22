@@ -17,7 +17,9 @@ model = genai.GenerativeModel("gemini-pro")
     capabilites of our machines. Hence, a simpler implementation using pre-exsiting models have been inlcuded as a proof-of-concept.
 """
 
-keywords = ""
+# These keywords were the common denominator in various resumes online.
+# While here this has been done manually, in the implementation we describe above it will be done using NLP making the collection much more valuable! 
+keywords = "algorithms, architecture, migration, development, framework, analytical, etc."
 
 def modify_des(context, description, type):
     """
@@ -26,25 +28,25 @@ def modify_des(context, description, type):
         A research conducted concluded 26 techniques for prompt engineering to boost response efficacy by at least 60%. 
         Those techniques have all been hereby implemented in our prompt engineering.
     """
-    prompt = f"I am applying for a job of {context}. The audience is a recrutier expert in the field. Your task is to modify my description to create a clear, concise and goal-oriented text which is phrased clearly using ATS-friendly and recruiter-friendly language. Use natural human-like language. Do not use AI-sounding words, like but not limited to 'beacon', 'leveraging' etc. Include {context} related jargon and clad it with industry-specific keywords that recruiters and ATS look for, such as but not limited to {keywords}. I am going to tip $9999 for a better solution"
+    prompt = f"I am applying for a job of {context}. The audience is a recrutier expert in the field of {context}. Your task is to modify my given description to create a clear, brief and goal-oriented text paragraph for the specified purpose which is phrased clearly using ATS-friendly and recruiter-friendly language. Use natural human-like language. Do not use AI-sounding words, like but not limited to 'beacon', 'leveraging', 'robust' etc. Include {context} related jargon and clad it with industry-specific keywords that recruiters and ATS look for, such as but not limited to {keywords} wherever applicable. I am going to tip $9999 for a better solution. Don't use any formatting."
 
     # Leadership Experience modification
     if type == "lex":
-        prompt = prompt + "This is my leadership experience: " 
+        prompt = prompt + "This is my leadership experience. The purpose is to describe how I demonstrated leadership in this experience: " 
 
     # Work Experience modification
     if type == "wex":
-        prompt = prompt + "This are my achievements in this job experience: "
+        prompt = prompt + "This are my achievements in this job experience. The purpose is to hihglight my achievements in this role: "
     
     # Project Description modification
     if type == "proj":
-        prompt = prompt + "This is my project description: "
+        prompt = prompt + "This is my project description. The purpose is to describe my project and learnings: "
     """
         Additionally we can add to this prompt a few examples of how the respective dsecriptions from widely accepted resumes look like 
         to give an exaple to the LLM. This data is widely available online.
     """
 
-    prompt = prompt ++ description
+    prompt = prompt + description + "\nAlso spell-check it and fix any grammatical errors."
     return model.generate_content(prompt).text
 
 if __name__ == '__main__':

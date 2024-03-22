@@ -1,39 +1,49 @@
 Basic Information:
-Full Name: fasfas
-Email: fasfsaf@faf.com
-Mobile Number: fsafsaf
+Full Name: a
+Email: a@gmail.com
+Mobile Number: 231312
 Gender: male
-Website: asfsaffassaf
+Website: 213afs.com
 
 Educational Details:
 Qualification 1: None
-Degree: fsasaf
-Institution Name: fsafsaf
-From - Till: fasf
-GPA: faasfa
-Coursework: sfasf
+Degree: abc
+Institution Name: bcd
+From - Till: 12-12-23 - 12-1-24
+GPA: 9
+Coursework: Discrete Math, Data Structres
+
+Qualification 2: None
+Degree: cde
+Institution Name: efg
+From - Till: 1-12-23 - 13-4-24
+GPA: 8
+Coursework: Software Engineering, Cryptography
 
 
 Skills:
 Technical Skills:
-afsf: afsfsfsaasf
+Codig: 10
+CC: 9
+DSA: 8
 
 Soft Skills:
-afsfsa: fsafsafsaafs
+team management: 9
+ leadership:  8
 
 Work Experience:
-Role Name 1: sfaf
-Company Name - Location: fasf
-Work From - Till: fasfs
-Achievements: safasf
+Role Name 1: A
+Company Name - Location: B, C
+Work From - Till: 12 - 13
+Achievements: As a Software Development Engineer (SDE), I consistently exceeded expectations and was recognized as the top performer for six consecutive months. My exceptional coding skills enabled me to deliver high-quality software solutions that met stringent requirements. I possess a deep understanding of software development methodologies and best practices, ensuring efficient and reliable code delivery. My expertise in object-oriented programming languages, data structures, and algorithms has enabled me to tackle complex technical challenges and produce robust and scalable software.
 
 
 Projects:
-Project Title 1: fassaf
-Tech Stack: afsafs
-Project Description: fasafsfsaafs
+Project Title 1: F
+Tech Stack: Python, SQL
+Project Description: As an SDE developer, I designed and implemented a robust database architecture that seamlessly relays data in real-time across multiple databases, ensuring data integrity and consistency throughout the organization. This project showcased my proficiency in database design, data synchronization, and SQL optimization, utilizing industry-standard technologies to achieve high availability and performance. Through this hands-on experience, I gained valuable insights into database management systems, data modeling, and distributed systems, honing my skills in designing and deploying scalable data solutions.
 
 
 Leadership Experience:
-Leadership Description 1: fassf
+Leadership Description 1: As a team leader in a national hackathon, I played a pivotal role in guiding and motivating a team of developers to achieve optimal performance. Through effective communication and collaboration, I fostered a cohesive team environment that stimulated innovation and problem-solving. My leadership skills enabled us to develop a cutting-edge solution that garnered recognition and validation at the national level, showcasing our ability to create impactful software products.
 
