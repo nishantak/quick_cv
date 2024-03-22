@@ -11,6 +11,10 @@ def home():
 def ats():
 	return render_template('ats.html')
 
+
+
+from .nlp import modify_des
+
 @views.route('/generate_resume', methods=['POST'])
 def gen_res():
     # Get basic information
@@ -135,8 +139,8 @@ def gen_res():
 				for key, value in leader_exp.items():
 					file.write(f"{key}: {value}\n")
 				file.write('\n')
-		
-		return send_file('1.txt')	
+
+		return modify_des('hello')	
 	
 	except Exception as e:
    		return f"Error occurred: {str(e)}"
