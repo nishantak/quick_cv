@@ -46,7 +46,7 @@ def modify_des(context, description, type):
         to give an exaple to the LLM. This data is widely available online.
     """
 
-    prompt = prompt + description + "\nAlso spell-check it and fix any grammatical errors. I will charge a penalty if my instructions are not followed"
+    prompt = prompt + description + "\nAlso spell-check it and fix any grammatical errors. Do not over exaggerate the descriptions. I will charge a huge penalty if my instructions are not followed"
     return model.generate_content(prompt).text
 
 if __name__ == '__main__':
