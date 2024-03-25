@@ -11,7 +11,7 @@ Natural Language Processing is used to optimize and structure the descriptive co
 # Installation
 
 ```bash
-git clone https://github.com/nishantak/resume_builder.git
+git clone https://github.com/nishantak/quick_cv.git
 cd resume_builder
 pip install flask
 python main.py  #for windows 
