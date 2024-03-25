@@ -12,7 +12,7 @@ Natural Language Processing is used to optimize and structure the descriptive co
 
 ```bash
 git clone https://github.com/nishantak/quick_cv.git
-cd resume_builder
+cd quick_cv
 pip install flask
 python main.py  #for windows 
 ```
