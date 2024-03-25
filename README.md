@@ -20,6 +20,8 @@ python main.py  #for windows
 Since this is a prototype, it is not, as of now, web-hosted. Access the website at your localhost at http://localhost:5000
 
 ## Contributors 
+- [Nishantak Panigrahi](https://github.com/nishantak)
+- [Chetana Bhansali](https://github.com/Chetanabhansali)
 
 
 ### ATS
