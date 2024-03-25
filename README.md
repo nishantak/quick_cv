@@ -14,10 +14,12 @@ Natural Language Processing is used to optimize descriptive contents to be clear
 git clone https://github.com/nishantak/resume_builder.git
 cd resume_builder
 pip install flask
-python main.py
+python main.py  #for windows 
 ```
 
 Since this is a prototype, it is not, as of now, web-hosted. Access the website at your localhost at http://localhost:5000
+
+## Contributors 
 
 
 ### ATS
