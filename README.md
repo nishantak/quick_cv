@@ -1,4 +1,6 @@
 # **QuickCV**
+Submission to IEEE Prudentia
+
 This website simplifies the process of creating [ATS](#ats) friendly resumes. User will input their data and the website will handle the creation. The generated resume is optimized for ATS compatibility without the hassle of tedious formatting.
 
 Whether you are a newbie who does not know how to create resumes, or you simply want to bypass the hassle of formatting; this website is your answer!
